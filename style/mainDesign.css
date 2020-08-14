@@ -1,0 +1,119 @@
+*{
+    font-family: 'Luckiest Guy', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;     
+    background: linear-gradient(#f87373, #85F7F7);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+#titleDesignImg{
+    width: 900px;
+    height: 480px;
+    position: absolute;
+    left: 27%;
+    top: -3.6%;
+    z-index: -1;
+    opacity: 70%;
+    transform: rotate(180deg);
+}
+
+.mainText{
+    position: static;
+    top: 30%;
+    width: 90%;
+    
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.mainText h1{
+    color: rgb(74, 78, 78);
+    font-size: 30px;
+    word-spacing: 10px;
+    
+}
+
+.mainText h2{
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 3px;
+    color: rgb(0, 110, 255);
+    font-size: 50px;
+    word-spacing: 10px;
+}
+
+.mainText h2:hover{
+    color: #57f58c;    
+    cursor: context-menu;
+    transform: scale(1.5);
+
+    word-spacing: 10px;
+}
+
+.mainText .smallText{
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    margin-top: 30px; 
+    margin-bottom: 30px;   
+    border-left: solid rgb(180, 179, 179);
+    border-width: 18px;
+    box-shadow: rgb(56, 58, 58) -3px 0px;
+}
+
+.mainText .smallText ul li{
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    margin-top: 2px;
+    position: relative;
+    left: 7%;
+    text-align: left;
+    font-style: italic;
+    
+}
+
+.mainText .subTitle{
+    text-align: left;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.verticalText{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    left: 13%;
+    top: 1200px;
+    height: 1400px;
+    font-size: 72px;
+    opacity: 40%;
+    transition: opacity 1s, color 1s;
+    cursor: default;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

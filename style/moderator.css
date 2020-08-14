@@ -1,0 +1,78 @@
+
+.moderatorForm{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 20%;
+    border:  red;
+    padding: 20px;
+    background-color: rgb(187, 164, 164);
+    border-left: solid red;
+    transition: opacity 2s linear;
+}
+
+
+.moderatorForm input{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    border: solid rgb(214, 178, 178) 2px ;
+    
+    border-radius: 10px;
+    transition: width 0.4s ease-in-out, background-color 1s;
+}
+
+textarea[name="about"]{
+    resize: none;
+    height: 100px;
+    width: 40%;
+    text-align: left;
+    padding: 12px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    transition: width 0.4s ease-in-out, background-color 1s;
+    border: solid rgb(214, 178, 178) 2px ;
+    border-radius: 10px;
+}
+
+textarea:focus{
+    width: 80%;
+    background-color: wheat;    
+}
+
+.moderatorForm input:focus{
+    width: 80%;
+    background-color: wheat;    
+}
+
+.moderatorForm form{
+    margin-bottom: 20px;
+}
+
+button[type="submit"]{
+    background-color: rgb(14, 197, 45);
+    width: 10px;
+    height: 50px;
+    margin-top: 10px;
+    transition: all 2s;
+    position: relative;
+    left: 30%;
+}
+
+button[type="submit"]:hover{
+    transform: rotate(20deg);
+    transform: scale(1.2);
+    cursor: pointer;
+    
+}
+
+select{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#moderatorText{
+    padding-left: 30px;
+    font-style: italic;
+}
+
