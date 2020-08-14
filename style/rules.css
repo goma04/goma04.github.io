@@ -9,6 +9,7 @@
     margin-left: 3%;
     padding: 10px;
     transition: transform 0.1s;
+    border-radius: 10px;
 }
 
 .first{
@@ -49,7 +50,7 @@
     padding: 20px;
 }
 
- .boxTitle{
+.boxTitle{
     text-align: left;
     font-weight: 100;
     margin-left: 10px;
@@ -67,7 +68,7 @@
     position: absolute;
     left: 6%;
     top: 350px;
-    height: 7200px;
+    height: 100%;
     font-size: 66px;
     opacity: 40%;
     transition: opacity 1s, color 1s;
